@@ -25,7 +25,7 @@
       visibility: hidden;
     }
     .md-lg{
-      @apply blur-none;
+      /* @apply blur-none; */
     }
     }
     .animation-slide {
