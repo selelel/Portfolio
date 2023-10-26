@@ -1,6 +1,6 @@
 import {ReactNode, useContext } from 'react';
 import { createContext } from 'react'
-import { useState } from 'react';
+import { useState, useEffect} from 'react';
 
 type Props = {
   children: ReactNode
@@ -17,7 +17,7 @@ type Outputprops = {
 const Context = createContext<Outputprops|null>(null)
 
 const Provider = ({children}:Props) => {
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(true)
   const [modal, setModal] = useState(false)
   const toToggle = () => {
     modal===true ? setModal(false): setModal(true);

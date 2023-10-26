@@ -15,7 +15,6 @@
 @media only screen and (max-width: 600px) {
   .media-show{
     visibility: visible;
-    
   }
   .text_{
     font-size: 2.5rem;
@@ -25,6 +24,44 @@
     .media-show{
       visibility: hidden;
     }
+    .md-lg{
+      @apply blur-none;
+    }
+    }
+    .animation-slide {
+      animation-name: slide;
+      animation-duration: 1s;
+      right: 1rem;
+    }
+    .animation-slide-isClose {
+      animation-name: slideClose;
+      animation-duration: 1s;
+      visibility: hidden;
+      right: 0rem;
+    }
+
+    @keyframes slide {
+      from {
+        opacity: 0;
+        right: 0;
+      }
+      to {
+        opacity: 1;
+        right: 1rem;
+      }
+    }
+    
+    @keyframes slideClose {
+      from {
+        opacity: 1;
+        right: 1rem;  
+        visibility: visible;
+      }
+      to {
+        opacity: 0;
+        right: 0rem;
+        visibility: hidden;
+      }
     }
 
 
