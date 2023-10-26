@@ -1,13 +1,14 @@
 import Context from '../../Context/Context';
 import { useContext } from 'react';
 import Resume from '../Resume/Resume';
-import Button from '../../Reuseable UI/Button';
 import Modals from '../../Reuseable UI/Modals';
 import Nav from './Nav';
 import Hero from './Hero';
+import classNames from 'classnames';
 
 const Main = () => {
   const context= useContext(Context);
+  const classN = classNames('overflow-x-hidden',context?.modal ? 'duration-300 ease-out blur-sm': 'duration-500 ease-out blur-none')
   return (
     <>
     {
@@ -17,7 +18,7 @@ const Main = () => {
       </div> : ''
       }
 
-    <div className={context?.modal ? 'duration-700 ease-out blur-sm': 'duration-500 ease-out blur-none'}>
+    <div className={classN}>
       <Nav/>
       <Hero/>
     </div>

@@ -9,19 +9,22 @@ type Props = {
 type Outputprops = {
   modal: boolean,
   setModal: React.Dispatch<React.SetStateAction<boolean>>,
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>,
   toToggle: () => void,
+  isOpen: boolean,
 } 
 
 const Context = createContext<Outputprops|null>(null)
 
 const Provider = ({children}:Props) => {
+  const [isOpen, setOpen] = useState(false)
   const [modal, setModal] = useState(false)
   const toToggle = () => {
     modal===true ? setModal(false): setModal(true);
   }
 
   return (
-    <Context.Provider value = {{modal, setModal, toToggle}} >{children}</Context.Provider>
+    <Context.Provider value = {{modal, setModal, toToggle, isOpen, setOpen}} >{children}</Context.Provider>
   )
 }
 

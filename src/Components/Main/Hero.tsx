@@ -9,8 +9,8 @@ function Hero() {
   return (
     <>
     <div className="mx-10 mt-16 mb-32 min-h-[24rem] flex flex-col">
-      <div className="my-auto flex flex-col gap-y-2">
-        <h1 className="text-5xl">Jan Russel Gorembalem</h1>
+      <div className="my-auto flex flex-col gap-y-2 whitespace-normal">
+        <h1 className="text-5xl text_">Jan Russel Gorembalem</h1>
         <p className="font-medium">🚀 Crafting Digital Worlds, One Pixel at a Time 🌟</p>
         <div className="flex w-1/2 gap-0">
           <Button className="text-4xl w-fit"><AiFillLinkedin/></Button>
