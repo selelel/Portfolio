@@ -17,7 +17,7 @@ type Outputprops = {
 const Context = createContext<Outputprops|null>(null)
 
 const Provider = ({children}:Props) => {
-  const [isOpen, setOpen] = useState(true)
+  const [isOpen, setOpen] = useState(false)
   const [modal, setModal] = useState(false)
   const toToggle = () => {
     modal===true ? setModal(false): setModal(true);

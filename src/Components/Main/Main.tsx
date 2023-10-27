@@ -8,20 +8,130 @@ import classNames from 'classnames';
 
 const Main = () => {
   const context= useContext(Context);
-  const classN = classNames('overflow-x-hidden md-lg',context?.modal || context?.isOpen ? 'duration-300 ease-out blur-sm': 'duration-500 ease-out blur-none')
+  const classN = classNames('overflow-x-hidden md-lg relative',context?.modal? 'duration-300 ease-out blur-sm': 'duration-500 ease-out blur-none')
   return (
     <>
+    <div><Nav/></div>
     {
     context?.modal ? 
-    <div className='z-10 fixed'>
+    <div className='z-20 fixed'>
       <Modals className='overflow-auto scrollbar-hide bg-white m-3 min-w-[300px] ' onClose={context.toToggle}><Resume/></Modals>
       </div> : ''
       }
-    <div className='overflow-x-hidden'>
-    <Nav/>
-    </div>
     <div className={classN}>
-      <Hero/>
+      <Hero/> 
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
+      <div>-</div>
     </div>
     
     </>

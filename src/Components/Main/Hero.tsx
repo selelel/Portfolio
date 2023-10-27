@@ -8,7 +8,7 @@ function Hero() {
   const context = cont();
   return (
     <>
-    <div className="mx-10 mt-16 mb-32 min-h-[24rem] flex flex-col">
+    <div className="mx-10 mt-16 mb-32 min-h-[30rem] flex flex-col">
       <div className="my-auto flex flex-col gap-y-2 whitespace-normal">
         <h1 className="text-5xl text_">Jan Russel Gorembalem</h1>
         <p className="font-medium">🚀 Crafting Digital Worlds, One Pixel at a Time 🌟</p>
