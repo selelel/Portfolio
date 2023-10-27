@@ -6,7 +6,7 @@ import classNames from 'classnames'
 function Nav() {
   const Logo = '<sel/>'
   const context = cont();
-  const classN = classNames('z-10 fixed h-full bg-white w-screen flex flex-col justify-center items-center media-show', context?.isOpen ? 'animation-slide' : 'animation-slide-isClose')
+  const classN = classNames('z-10 fixed top-0 bg-white w-screen flex flex-col justify-center items-center media-show', context?.isOpen ? 'animation-slide' : 'animation-slide-isClose')
   return (
     <>
     <div className={classN}><Button className='font-thin'>Home</Button>
@@ -15,7 +15,7 @@ function Nav() {
         <Button className='font-thin'>Contact</Button>
         </div>
 
-    <div className='fixed z-10 w-screen flex mx-auto px-5 justify-between m-4'>
+    <div className='fixed z-10 w-screen flex mx-auto px-5 top-1 justify-between m-4'>
 
       <p className='text-2xl font-bold h-fit my-auto'>{Logo}</p>
         <div className='flex gap-2 media'>

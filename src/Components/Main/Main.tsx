@@ -8,10 +8,9 @@ import classNames from 'classnames';
 
 const Main = () => {
   const context= useContext(Context);
-  const classN = classNames('overflow-x-hidden md-lg relative',context?.modal? 'duration-300 ease-out blur-sm': 'duration-500 ease-out blur-none')
+  const classN = classNames('md-lg relative',context?.modal? 'duration-300 ease-out blur-sm': 'duration-500 ease-out blur-none')
   return (
     <>
-    <div><Nav/></div>
     {
     context?.modal ? 
     <div className='z-20 fixed'>
