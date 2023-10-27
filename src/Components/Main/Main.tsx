@@ -2,7 +2,6 @@ import Context from '../../Context/Context';
 import { useContext } from 'react';
 import Resume from '../Resume/Resume';
 import Modals from '../../Reuseable UI/Modals';
-import Nav from './Nav';
 import Hero from './Hero';
 import classNames from 'classnames';
 
@@ -17,122 +16,10 @@ const Main = () => {
       <Modals className='overflow-auto scrollbar-hide bg-white m-3 min-w-[300px] ' onClose={context.toToggle}><Resume/></Modals>
       </div> : ''
       }
+
     <div className={classN}>
-      <Hero/> 
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
+      <Hero/>
     </div>
-    
     </>
   )
 }
