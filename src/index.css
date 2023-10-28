@@ -28,8 +28,7 @@
     animation-name: slideClose;
     animation-duration: 1s;
     visibility: hidden;
-    height: 0vh;
-    top: 0%;
+    opacity: 0;
   }
   }
   @media only screen and (min-width: 601px) {
@@ -58,6 +57,7 @@
         opacity: 1;
         visibility: visible;
         height: 100vh;
+        top: auto;
       }
       to {
         opacity: 0;
