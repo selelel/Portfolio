@@ -2,11 +2,13 @@ import Button from '../../Reuseable UI/Button'
 import Hamburger from 'hamburger-react'
 import { cont } from '../../Context/Context'
 import classNames from 'classnames'
+import {useEffect, useState} from 'react'
 
-function Nav() {
+const Nav = () => {
   const Logo = '<sel/>'
   const context = cont();
-  const classN = classNames('z-10 fixed top-0 bg-white w-screen flex flex-col justify-center items-center media-show', context?.isOpen ? 'animation-slide' : 'animation-slide-isClose')
+
+  const classN = classNames('z-10 fixed top-0 bg-white w-screen flex flex-col justify-center items-center media-show', context?.isOpen ? 'animation-slide' :'animation-slide-isClose')
 
   return (
     <>

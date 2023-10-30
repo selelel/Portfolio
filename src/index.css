@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -8,15 +8,15 @@
   /* border: solid 1px grey; */
 }
 @media only screen and (max-width: 600px) {
-.media{
-  visibility: hidden;
-}
+  .media {
+    visibility: hidden;
+  }
 }
 @media only screen and (max-width: 600px) {
-  .media-show{
+  .media-show {
     visibility: visible;
   }
-  .text_{
+  .text_ {
     font-size: 2.5rem;
   }
   .animation-slide {
@@ -30,43 +30,43 @@
     visibility: hidden;
     opacity: 0;
   }
+}
+@media only screen and (min-width: 601px) {
+  .media-show {
+    visibility: hidden;
   }
-  @media only screen and (min-width: 601px) {
-    .media-show{
-      visibility: hidden;
-    }
-    .md-lg{
-      /* @apply blur-none; */
-    }
-    }
+  .md-lg {
+    /* @apply blur-none; */
+  }
+}
 
-    @keyframes slide {
-      from {
-        opacity: 0;visibility: hidden;
-        height: 0vh;
-      }
-      to {
-        opacity: 1;
-        height: 100vh;
-        visibility: visible;
-      }
-    }
-    
-    @keyframes slideClose {
-      from {
-        opacity: 1;
-        visibility: visible;
-        height: 100vh;
-        top: auto;
-      }
-      to {
-        opacity: 0;
-        visibility: hidden;
-        height: 0vh;
-      }
-    }
+@keyframes slide {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    height: 0vh;
+  }
+  to {
+    opacity: 1;
+    height: 100vh;
+    visibility: visible;
+  }
+}
 
+@keyframes slideClose {
+  from {
+    opacity: 1;
+    visibility: visible;
+    height: 100vh;
+    top: auto;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+    height: 0vh;
+  }
+}
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
