@@ -1,14 +1,38 @@
 import TagIcon from "../../Reuseable UI/tagIcon";
 
+const About = () => {
+  return (
+    <>
+      <div className="mx-10 min-h-[30rem] flex flex-col items-center ">
+        <Skill />
+        <div className="w-11/12 mt-24 flex md:flex-nowrap flex-wrap items-center gap-0 px-auto">
+          <p className="min-w-fit pr-1 py-2 text-3xl font-semibold">About me</p>
+          <div className="ml-0 pl-0 md:py-6 border-black md:border-l-2 md:ml-3 md:pl-10 w-full">
+            <p className="text-2xl font-semibold mb-5">I love Learning!</p>
+            <p>
+              I'm Jan Russel, an entry-level front-end web developer eager to
+              learn and grow in the world of web development. I have a deep
+              appreciation for design and aspire to create user-friendly
+              websites. I'm enthusiastic about honing my skills and taking on
+              new challenges in this exciting field. Let's embark on this
+              learning journey together! 🚀😊🌟
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
 const Skill = () => {
   return (
     <>
       <div className="gap-1 mx-auto w-11/12">
-        <div className="w-7/12 mx-auto mb-2">
+        <div className=" mx-auto mb-2">
           <p className="w-fit font-semibold text-3xl">Skills</p>
         </div>
 
-        <div className="flex flex-wrap w-7/12 gap-1 align-middle mx-auto justify-start">
+        <div className="flex flex-wrap w-11/12 gap-1 align-middle mx-auto justify-stretch  ">
           <TagIcon>HTML</TagIcon>
           <TagIcon>CSS</TagIcon>
           <TagIcon>JavaScript</TagIcon>
@@ -22,29 +46,6 @@ const Skill = () => {
           <TagIcon>Jquery</TagIcon>
           <TagIcon>NPM</TagIcon>
           <TagIcon>UX/UI Design</TagIcon>
-        </div>
-      </div>
-    </>
-  );
-};
-
-const About = () => {
-  return (
-    <>
-      <div className="mx-10 min-h-[30rem] flex flex-col items-center ">
-        <Skill />
-        <div className="w-11/12 mt-24 flex lg:flex-nowrap flexFix forAboutme items-center gap-0 px-10">
-          <p className="min-w-fit pr-5 py-2 text-3xl font-semibold">About me</p>
-          <div className="ml-3 pl-10 py-6 border-l-2 border-black">
-            <p className="text-2xl font-semibold mb-5">Mamaw magrelapse</p>
-            <p>
-              Hello, I'm Jan Russel, a passionate junior front-end web developer
-              with a keen eye for design and a love for creating beautiful,
-              user-friendly websites. I'm dedicated to crafting exceptional
-              digital experiences that not only look great but also function
-              flawlessly. 🚀
-            </p>
-          </div>
         </div>
       </div>
     </>

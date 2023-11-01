@@ -9,10 +9,8 @@ import About from "./About";
 const Main = () => {
   const context = useContext(Context);
   const classN = classNames(
-    "md-lg relative",
-    context?.modal
-      ? "duration-300 ease-out blur-sm"
-      : "duration-500 ease-out blur-none"
+    "md-lg relative ease-out",
+    context?.modal ? "duration-300 blur-sm" : "duration-500 blur-none"
   );
   return (
     <>
