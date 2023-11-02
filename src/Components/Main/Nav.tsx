@@ -15,10 +15,10 @@ const Nav = () => {
   return (
     <div className="fixed top-0 z-30">
       <div className={classN}>
-        <Button className="font-thin text-3xl">About</Button>
-        <Button className="font-thin text-3xl">Home</Button>
-        <Button className="font-thin text-3xl">Project</Button>
-        <Button className="font-thin text-3xl">Contact</Button>
+        <Button className="font-thin text-xl">About</Button>
+        <Button className="font-thin text-xl">Home</Button>
+        <Button className="font-thin text-xl">Project</Button>
+        <Button className="font-thin text-xl">Contact</Button>
       </div>
 
       <div className=" pt-5 py-2 w-screen flex px-10 justify-between bg-white">

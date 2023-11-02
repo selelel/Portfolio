@@ -5,6 +5,7 @@ import Modals from "../../Reuseable UI/Modals";
 import Hero from "./Hero";
 import classNames from "classnames";
 import About from "./About";
+import Projects from "./Projects";
 
 const Main = () => {
   const context = useContext(Context);
@@ -30,6 +31,7 @@ const Main = () => {
       <div className={classN}>
         <Hero />
         <About />
+        <Projects />
       </div>
     </>
   );
