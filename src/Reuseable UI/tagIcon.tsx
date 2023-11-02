@@ -8,7 +8,7 @@ type tagType = {
 
 function TagIcon({ children, ...rest }: tagType) {
   const className = classNames(
-    "min-w-[3rem] h-[2rem] p-1 text-center font-medium bg-black text-white cursor-pointer",
+    "min-w-[5rem] h-[2rem] p-1 text-center font-medium bg-black text-white cursor-pointer",
     rest?.className
   );
 
