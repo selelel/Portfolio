@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import Button from "./Button";
 import TagIcon from "./tagIcon";
 
@@ -11,18 +10,18 @@ type prop = {
   tech: string[];
 };
 
-function PanelProject({ ...rest }: prop) {
-  const techUsed = rest.tech.map((element) => {
+function Panel({ ...rest }: prop) {
+  const techUsed = rest.tech.map((element, index) => {
     return (
-      <div>
+      <div key={element}>
         <TagIcon className="rounded">{element}</TagIcon>
       </div>
     );
   });
   return (
-    <div className="grid sm:flex grid-col md:grid-cols-2 items-center gap-5 md:gap-10 p-10 rounded-lg h-fit mb-1">
-      <div className="mx-auto border-red-100 align-middle">
-        <div className="text-2xl sm:text-3xl font-semibold my-1">
+    <div className="grid md:flex grid-col lg:grid-cols-2 items-center gap-5 lg:gap-10 p-10 rounded-lg h-fit mb-1">
+      <div className="mx-auto align-middle max-w-[23rem]">
+        <div className="text-2xl md:text-3xl font-semibold my-1">
           {rest.name}
         </div>
         <div className="my-3">{rest.description}</div>
@@ -36,11 +35,11 @@ function PanelProject({ ...rest }: prop) {
           </Button>
         </div>
       </div>
-      <div className="mx-auto min-w-[33%] row-start-1">
+      <div className="mx-auto max-w-[16.5rem]  row-start-1">
         <img className="rounded-xl" src={rest.linkImg} alt="cromulon" />
       </div>
     </div>
   );
 }
 
-export default PanelProject;
+export default Panel;

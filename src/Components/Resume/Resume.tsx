@@ -1,68 +1,59 @@
-import {cont} from '../../Context/Context'
-import info from '../../Context/Info';
+import { cont } from "../../Context/Context";
+import { info } from "../../Context/Info";
 
-const Resume = () =>{
+const Resume = () => {
   const context = cont();
-  return(
+  return (
     <>
-    <div className='mx-3 p-3 text-[0.7rem] tracking-wide'>
-      <p className='font-semibold font-body text-lg'>{info.name}</p>
-      <p>{info.address}</p>
-      <p>{info.number}</p>
-      <p>{info.email}</p>
-    </div>
-
-    <div className='mx-3 p-3 text-[0.7rem] tracking-wide'>
-      <p className='font-semibold font-body text-lg'>Objective</p>
-      <p className='text-justify'>{info.objective}</p>
-    </div>
-
-    <div className='mx-3 p-3 text-[0.7rem] tracking-wide'>
-      <p className='font-semibold font-body text-lg'>Education</p>
-
-      {info.education.map((el, index)=>{
-        return (
-          <div className='flex h-32'>
-        <p className='my-auto h-fit font-semibold mr-6 min-w-fit'>{info.education[index].year}</p>
-        <div className='w-48 border-l border-black pl-6 my-auto h-fit'>
-        {info.education[index].desciption}
-        </div>
+      <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
+        <p className="font-semibold font-body text-lg">{info.name}</p>
+        <p>{info.address}</p>
+        <p>{info.number}</p>
+        <p>{info.email}</p>
       </div>
-        )
-      })}
 
-    </div>
+      <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
+        <p className="font-semibold font-body text-lg">Objective</p>
+        <p className="text-justify">{info.objective}</p>
+      </div>
 
-    <div className='mx-3 p-3 text-[0.7rem] tracking-wide'>
-      <p className='font-semibold font-body text-lg '>Skills</p>
-      <ul className='list-disc ml-10'>
-        {
-          info.skill.map((el, index)=>{
-            return(
-              <li className='text-justify m-1'>
-                {info.skill[index]}
-              </li>
-            )
-          })
-        }
-      </ul>
-    </div>
+      <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
+        <p className="font-semibold font-body text-lg">Education</p>
 
-    <div className='mx-3 p-3 text-[0.7rem] tracking-wide'>
-      <p className='font-semibold font-body text-lg '>Extra-Curricular Activities</p>
-      <ul className='list-disc ml-5'>
-      {
-          info.extra.map((el, index)=>{
-            return(
-              <li className='text-justify m-1'>
-                {info.extra[index]}
-              </li>
-            )
-          })
-        }
-      </ul>
-    </div>
+        {info.education.map((el, index) => {
+          return (
+            <div className="flex h-32">
+              <p className="my-auto h-fit font-semibold mr-6 min-w-fit">
+                {info.education[index].year}
+              </p>
+              <div className="w-48 border-l border-black pl-6 my-auto h-fit">
+                {info.education[index].desciption}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
+        <p className="font-semibold font-body text-lg ">Skills</p>
+        <ul className="list-disc ml-10">
+          {info.skill.map((el, index) => {
+            return <li className="text-justify m-1">{info.skill[index]}</li>;
+          })}
+        </ul>
+      </div>
+
+      <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
+        <p className="font-semibold font-body text-lg ">
+          Extra-Curricular Activities
+        </p>
+        <ul className="list-disc ml-5">
+          {info.extra.map((el, index) => {
+            return <li className="text-justify m-1">{info.extra[index]}</li>;
+          })}
+        </ul>
+      </div>
     </>
-  )
-}
-export default Resume
+  );
+};
+export default Resume;
