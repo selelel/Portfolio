@@ -37,24 +37,23 @@ const info = {
 };
 const projects = [
   {
-    name: "Profile",
+    name: "Portfolio Website",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo lasd11.",
-    urlGit: "https://github.com/selelel",
+      "Discover my portfolio – a visual journey through my creative work and skills. Explore and connect today!",
+    urlGit: "https://github.com/selelel/Portfolio",
     urlHomepage: "https://selelel.github.io/Portfolio/",
-    urlImg:
-      "https://image.spreadshirtmedia.net/image-server/v1/compositions/T6A2PA5835PT17X38Y78D16932954W23559H35683/views/1,width=550,height=550,appearanceId=2,backgroundColor=000000,noPt=true/rick-and-morty-cromulon-show-me-what-you-got-mens-t-shirt.jpg",
-    techStack: ["Html", "CSS", "Tailwind", "ReactJS", "TypeScript"],
+    urlImg: require("./img/portfolio.gif"),
+    techStack: ["Tailwind", "ReactJS", "TypeScript"],
   },
   {
     name: "Vertext",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo lasd11.",
-    urlGit: "https://github.com/selelel",
-    urlHomepage: "https://selelel.github.io/Portfolio/",
-    urlImg:
-      "https://image.spreadshirtmedia.net/image-server/v1/compositions/T6A2PA5835PT17X38Y78D16932954W23559H35683/views/1,width=550,height=550,appearanceId=2,backgroundColor=000000,noPt=true/rick-and-morty-cromulon-show-me-what-you-got-mens-t-shirt.jpg",
-    techStack: ["Html", "CSS"],
+      "VerText is the go-to website for quick and easy text transformations. Convert text to uppercase, lowercase, or Morse code in seconds, and express yourself with flair.",
+    urlGit: "https://github.com/selelel/vertext",
+    urlHomepage:
+      "https://selelel.github.io/vertext/?fbclid=IwAR2C3kuhUs6n2lm6GiMPt3-N3EwGzVw7s_UX7iGF7kff2JHC4fb_F2KNMew",
+    urlImg: require("./img/vertext.gif"),
+    techStack: ["Tailwind", "ReactJS"],
   },
 ];
 

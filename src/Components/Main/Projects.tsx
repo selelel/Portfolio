@@ -11,14 +11,16 @@ const Projects = () => {
           </div>
           {projects.map((element) => {
             return (
-              <Panel
-                tech={element.techStack}
-                linkImg={element.urlImg}
-                linkGit={element.urlGit}
-                link={element.urlHomepage}
-                name={element.name}
-                description={element.description}
-              />
+              <div key={element.name}>
+                <Panel
+                  tech={element.techStack}
+                  linkImg={element.urlImg}
+                  linkGit={element.urlGit}
+                  link={element.urlHomepage}
+                  name={element.name}
+                  description={element.description}
+                />
+              </div>
             );
           })}
         </div>
