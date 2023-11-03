@@ -15,6 +15,7 @@ const Main = () => {
   );
   return (
     <>
+      <div id="hero"></div>
       {context?.modal ? (
         <div className="z-20 fixed">
           <Modals
@@ -30,7 +31,11 @@ const Main = () => {
 
       <div className={classN}>
         <Hero />
+
+        <div id="about"></div>
         <About />
+
+        <div id="project"> .</div>
         <Projects />
       </div>
     </>

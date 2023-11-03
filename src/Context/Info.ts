@@ -40,8 +40,8 @@ const projects = [
     name: "Portfolio Website",
     description:
       "Discover my portfolio – a visual journey through my creative work and skills. Explore and connect today!",
-    urlGit: "https://github.com/selelel/Portfolio",
-    urlHomepage: "https://selelel.github.io/Portfolio/",
+    urlGit: "https://github.com/selelel/portfolio",
+    urlHomepage: "https://selelel.github.io/portfolio/",
     urlImg: require("./img/portfolio.gif"),
     techStack: ["Tailwind", "ReactJS", "TypeScript"],
   },

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://selelel.github.io/Portfolio",
+  "homepage": "https://selelel.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +19,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+    "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
     "tailwind-scrollbar-hide": "^1.1.7",
     "typescript": "^4.9.5",

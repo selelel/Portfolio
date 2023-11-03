@@ -3,7 +3,7 @@ import TagIcon from "../../Reuseable UI/tagIcon";
 const About = () => {
   return (
     <>
-      <div className="mx-10 min-h-[30rem] flex flex-col items-center ">
+      <div className="mx-auto my-auto min-h-[30rem] flex flex-col items-center ">
         <Skill />
         <div className="w-9/12 mt-24 flex md:flex-nowrap flex-wrap items-center gap-0 px-auto">
           <p className="min-w-fit pr-1 py-2 text-3xl font-semibold">About me</p>
