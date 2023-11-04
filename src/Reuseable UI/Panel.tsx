@@ -37,7 +37,7 @@ function Panel({ ...rest }: prop) {
       </div>
       <div className="mx-auto max-w-[16.5rem]  row-start-1">
         <img
-          className="rounded-xl shadow-2xl  "
+          className="rounded-xl shadow-2xl duration-700 ease-out hover:scale-105"
           src={rest.linkImg}
           alt="cromulon"
         />

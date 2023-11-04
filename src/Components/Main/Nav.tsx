@@ -34,7 +34,7 @@ const Nav = () => {
   return (
     <div className="fixed top-0 z-30 flex align-middle">
       <div className={context?.phoneMenu}>
-        <Navigate section={"./#hero"} className="font-thin text-xl">
+        <Navigate section={"./#hero"} className="font-thin text-xl ">
           Home
         </Navigate>
         <Navigate section={"./#about"} className="font-thin text-xl">
