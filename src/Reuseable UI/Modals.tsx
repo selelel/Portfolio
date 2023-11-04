@@ -10,16 +10,16 @@ type Props = {
 
 function Modals({ children, ...rest }: Props) {
   const classes = classNames(
-    "break-words blur-none mx-auto border-2 border-black w-2/4 h-[32rem] rounded-lg",
+    "break-words blur-none mx-auto border-2 border-black w-2/4 h-[32rem] rounded-lg overflow-auto scrollbar-hide bg-white m-3 min-w-[20rem] backdrop-blur",
     rest.className
   );
   return (
     <>
       <div className={classes}>
-        <div className="flex justify-end">
+        <div className="flex justify-end ">
           <Button
             secondary
-            className="active:decoration-red-800 active:text-red-500"
+            className=" active:decoration-red-800 active:text-red-500"
             onClick={rest.onClose}
           >
             Close

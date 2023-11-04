@@ -11,32 +11,25 @@ const Main = () => {
   const context = useContext(Context);
   const classN = classNames(
     "md-lg relative ease-out",
-    context?.modal ? "duration-300 blur-sm" : "duration-500 blur-none"
+    context?.modal
+      ? "duration-300 blur-sm brightness-50"
+      : "duration-500 blur-none"
   );
+
   return (
     <>
-      <div id="hero"></div>
-      {context?.modal ? (
-        <div className="z-20 fixed">
-          <Modals
-            className="overflow-auto scrollbar-hide bg-white m-3 min-w-[300px] "
-            onClose={context.toToggle}
-          >
-            <Resume />
-          </Modals>
-        </div>
-      ) : (
-        ""
-      )}
-
+      {context?.ViewModal}
       <div className={classN}>
-        <Hero />
+        <div id="hero">
+          <Hero />
+        </div>
 
-        <div id="about"></div>
-        <About />
-
-        <div id="project"> .</div>
-        <Projects />
+        <div id="about">
+          <About />
+        </div>
+        <div id="project">
+          <Projects />
+        </div>
       </div>
     </>
   );
