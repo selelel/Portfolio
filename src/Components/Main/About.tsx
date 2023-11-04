@@ -25,6 +25,23 @@ const About = () => {
 };
 
 const Skill = () => {
+  const Icons = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Typescript",
+    "Tailwind",
+    "Git",
+    "ReactJS",
+    "JQuery",
+    "UX/UI Design",
+    "NPM",
+    "Node",
+    "SQL",
+    "Andriod Studio",
+  ].map((Element) => {
+    return <TagIcon>{Element}</TagIcon>;
+  });
   return (
     <>
       <div className="gap-1 mx-auto w-9/12">
@@ -32,20 +49,8 @@ const Skill = () => {
           <p className="w-fit font-semibold text-3xl">Skills</p>
         </div>
 
-        <div className="flex flex-wrap w-11/12 gap-1 align-middle mx-auto justify-stretch  ">
-          <TagIcon>HTML</TagIcon>
-          <TagIcon>CSS</TagIcon>
-          <TagIcon>JavaScript</TagIcon>
-          <TagIcon>Tailwind</TagIcon>
-          <TagIcon>ReactJS</TagIcon>
-          <TagIcon>Node</TagIcon>
-          <TagIcon>APIs</TagIcon>
-          <TagIcon>C#</TagIcon>
-          <TagIcon>JAVA</TagIcon>
-          <TagIcon>Typescript</TagIcon>
-          <TagIcon>Jquery</TagIcon>
-          <TagIcon>NPM</TagIcon>
-          <TagIcon>UX/UI Design</TagIcon>
+        <div className="flex flex-wrap w-11/12 gap-1 align-middle mx-auto justify-stretch ">
+          {Icons}
         </div>
       </div>
     </>
