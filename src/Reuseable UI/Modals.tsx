@@ -10,7 +10,7 @@ type Props = {
 
 function Modals({ children, ...rest }: Props) {
   const classes = classNames(
-    "break-words blur-none mx-auto border-2 border-black w-2/4 h-[32rem] rounded-lg overflow-auto scrollbar-hide bg-white m-3 min-w-[20rem] backdrop-blur",
+    "break-words blur-none mx-auto border border-black w-2/4 h-[32rem] rounded-lg overflow-auto scrollbar-hide bg-white m-3 min-w-[20rem] shadow-2xl",
     rest.className
   );
   return (

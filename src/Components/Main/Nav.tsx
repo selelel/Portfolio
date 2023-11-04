@@ -32,7 +32,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="fixed top-0 z-30">
+    <div className="fixed top-0 z-30 flex align-middle">
       <div className={context?.phoneMenu}>
         <Navigate section={"./#hero"} className="font-thin text-xl">
           Home
@@ -52,16 +52,16 @@ const Nav = () => {
         <a href="./#hero">
           <p className="text-3xl font-bold h-fit my-auto">{Logo}</p>
         </a>
+        <div className="media-show absolute right-7 mt-4 top-0 z-10">
+          <Hamburger
+            easing="ease-in "
+            duration={0.3}
+            toggled={context?.isOpen}
+            toggle={context?.setOpen}
+            size={25}
+          />
+        </div>
         <div className="flex gap-2 media">
-          <div className="media-show absolute right-7 mt-5 top-0 z-10">
-            <Hamburger
-              easing="ease-in "
-              duration={0.3}
-              toggled={context?.isOpen}
-              toggle={context?.setOpen}
-              size={30}
-            />
-          </div>
           <Navigate section={"./#hero"} className="font-thin">
             Home
           </Navigate>

@@ -36,7 +36,11 @@ function Panel({ ...rest }: prop) {
         </div>
       </div>
       <div className="mx-auto max-w-[16.5rem]  row-start-1">
-        <img className="rounded-xl" src={rest.linkImg} alt="cromulon" />
+        <img
+          className="rounded-xl shadow-2xl  "
+          src={rest.linkImg}
+          alt="cromulon"
+        />
       </div>
     </div>
   );
