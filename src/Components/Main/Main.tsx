@@ -11,9 +11,7 @@ const Main = () => {
   const context = useContext(Context);
   const classN = classNames(
     "md-lg relative ease-out",
-    context?.modal
-      ? "duration-300 blur-sm brightness-50"
-      : "duration-500 blur-none"
+    context?.modal ? "duration-300 blur-sm" : "duration-500 blur-none"
   );
 
   return (

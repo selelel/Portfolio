@@ -11,7 +11,7 @@ function Hero() {
         <div className="my-auto flex flex-col gap-y-2 whitespace-normal w-fit">
           <h1 className=" text-4xl sm:text-5xl">Jan Russel Gorembalem</h1>
           <p className="font-medium item">
-            🚀 Crafting Digital Worlds, One Pixel at a Time 🌟
+            Crafting code like an artist, I paint pixels with passion. ✨
           </p>
           <div className="flex gap-2 mx-auto">
             <Button className="text-4xl w-fit">

@@ -34,7 +34,7 @@ const Nav = () => {
   return (
     <div className="fixed top-0 z-30 flex align-middle">
       <div className={context?.phoneMenu}>
-        <Navigate section={"./#hero"} className="font-thin text-xl ">
+        <Navigate section={"./#hero"} className="font-thin text-xl">
           Home
         </Navigate>
         <Navigate section={"./#about"} className="font-thin text-xl">
@@ -62,7 +62,7 @@ const Nav = () => {
           />
         </div>
         <div className="flex gap-2 media">
-          <Navigate section={"./#hero"} className="font-thin">
+          <Navigate section={"./#hero"} className="font-thin ">
             Home
           </Navigate>
           <Navigate section={"./#about"} className="font-thin">

@@ -8,14 +8,15 @@ const About = () => {
         <div className="w-9/12 mt-24 flex md:flex-nowrap flex-wrap items-center gap-0 px-auto">
           <p className="min-w-fit pr-1 py-2 text-3xl font-semibold">About me</p>
           <div className="ml-0 pl-0 md:py-6 border-black md:border-l-2 md:ml-3 md:pl-10 w-full">
-            <p className="text-2xl font-semibold mb-5">I love Learning!</p>
+            <p className="text-2xl font-semibold mb-5">
+              Fan of learning stuff 🤓
+            </p>
             <p>
-              I'm Jan Russel, an entry-level front-end web developer eager to
-              learn and grow in the world of web development. I have a deep
-              appreciation for design and aspire to create user-friendly
-              websites. I'm enthusiastic about honing my skills and taking on
-              new challenges in this exciting field. Let's embark on this
-              learning journey together! 🚀😊🌟
+              I'm Jan Russel, a front-end web developer eager to learn and grow
+              in the world of web development. With a passion for design and a
+              drive to create user-friendly websites, I'm excited to improve my
+              skills and take on new challenges in this field.
+              <span className="text-lg">🚀</span>
             </p>
           </div>
         </div>
