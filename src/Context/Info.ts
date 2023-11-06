@@ -3,7 +3,10 @@ const info = {
   address: "Bulihan, Silang, Cavite",
   number: "0981 459 5078",
   email: "janrusselgorembalem4@gmail.com",
-  objective: `Seeking a challenging position within your esteemed company to apply and further develop my skills and abilities as a web developer. With a strong foundation in web development and a passion for creating innovative digital solutions, I am confident in my ability to contribute value and positively impact your organization's success in the field of web development.`,
+  objective: `Seeking a challenging position within your esteemed company to apply and further
+  develop my skills and abilities. With a knowledge of front-end development, I am
+  confident in my ability to contribute value and positively impact your organization's
+  success.`,
   education: [
     {
       year: "2021 - 2023",
@@ -17,22 +20,21 @@ const info = {
     },
   ],
   skill: [
-    "Has knowledge of performing administrative tasks (communication-related tasks, scheduling tasks, organizational tasks, and miscellaneous administrative tasks)",
+    "Has experience creating websites and programs using a specific computer programming language (including Tailwind, Typescript, and ReactJS).",
 
     "Has the skill to perform graphic design and video design.",
 
-    "Has experience creating websites and programs using a specific computer programming language (including HTML, CSS, Java, and JavaScript).",
+    "Has knowledge of performing administrative tasks (communication-related tasks, scheduling tasks, organizational tasks, and miscellaneous administrative tasks).",
 
     "Has the needed skills of problem-solving, reliability, fast learning, and persistence.",
 
-    "Has strong interpersonal communication skills, with excellent verbal and written communication abilities.",
+    "Has strong interpersonal communication skills, with excellent verbal and written communicationabilities.",
   ],
   extra: [
-    "TAGISAN NG TALINO AT SINING 2023 Local-Level Competitions CodeFest Hackathon (Champion)",
-    "Mapúa MCL ACM CodeX Competition (Entrant).",
-    "ShuttersBugs (Photography and Videography).",
-    "Chess",
-    "Table Tennis",
+    "TAGISAN NG TALINO AT SINING 2023 CodeFest Hackathon (Champion)",
+    "Mapúa MCL ACM CodeX Competition (Entrant)",
+    "ShuttersBugs (Photography and Videography)",
+    ,
   ],
 };
 const projects = [

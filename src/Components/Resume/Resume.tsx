@@ -8,7 +8,7 @@ const Resume = () => {
     <>
       <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
         <Button secondary className="text-sm text-gray-900">
-          <a href="https://drive.google.com/file/d/1_gcokvyx4FfmctVXjCJjxgF70ibDcty2/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1TLPm0YkEFl8xSmVa0bGEN8dt91-KE8th/view?usp=sharing">
             Download Resume Here
           </a>
         </Button>
