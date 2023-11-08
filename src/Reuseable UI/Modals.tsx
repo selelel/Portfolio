@@ -2,6 +2,7 @@ import React, { ReactNode, useEffect } from "react";
 import classNames from "classnames";
 import ReactDOM from "react-dom";
 import { cont } from "../Context/Context";
+import { FaArrowLeft } from "react-icons/fa";
 
 type Props = {
   children: ReactNode;
@@ -40,7 +41,9 @@ function Modals({ children, ...rest }: Props): JSX.Element | null {
         className="fixed inset-0 backdrop-blur-sm"
       ></div>
       <div className={classes}>
-        <div className="flex justify-end"></div>
+        <div className="fixed ml-5 mt-5 text-xl w-fit hover:text-black/80 active:text-black/75 active:scale-95  cursor-pointer">
+          <FaArrowLeft onClick={rest?.onClose}></FaArrowLeft>
+        </div>
         <div>{children}</div>
       </div>
     </div>,
