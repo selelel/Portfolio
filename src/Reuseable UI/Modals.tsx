@@ -1,6 +1,5 @@
 import React, { ReactNode, useEffect } from "react";
 import classNames from "classnames";
-import Button from "./Button";
 import ReactDOM from "react-dom";
 import { cont } from "../Context/Context";
 
@@ -13,7 +12,7 @@ type Props = {
 function Modals({ children, ...rest }: Props): JSX.Element | null {
   const context = cont();
   const classes = classNames(
-    "fixed inset-20 w-5/12 border border-black h-[30rem] overflow-auto scrollbar-hide bg-white m-3 min-w-[20rem] mx-auto rounded-xl shadow-2xl duration-500 ease-out",
+    "fixed inset-20 w-5/12 border border-black h-[30rem] overflow-auto scrollbar-hide bg-white m-3 min-w-[20rem] mx-auto rounded-xl shadow-2xl",
     rest.className
   );
 
@@ -40,20 +39,10 @@ function Modals({ children, ...rest }: Props): JSX.Element | null {
         onClick={() => {
           context?.setModal(false);
         }}
-        className="fixed inset-0 duration-500 ease-out backdrop-blur-sm"
+        className="fixed inset-0 backdrop-blur-sm"
       ></div>
       <div className={classes}>
-        <div className="flex justify-end">
-          <Button
-            secondary
-            className="active:decoration-red-800 active:text-red-500"
-            onClick={() => {
-              context?.setModal(false);
-            }}
-          >
-            Close
-          </Button>
-        </div>
+        <div className="flex justify-end"></div>
         <div>{children}</div>
       </div>
     </div>,

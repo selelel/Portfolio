@@ -7,11 +7,14 @@ const Resume = () => {
   return (
     <>
       <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
-        <Button secondary className="text-sm text-gray-900">
-          <a href="https://drive.google.com/file/d/1AYQTHTGBaioQucM2cYvOSJRPxxrcEd8U/view?usp=sharing">
-            Download Resume Here
-          </a>
-        </Button>
+        <div className="flex justify-end">
+          <Button secondary className="text-sm text-gray-900">
+            <a href="https://drive.google.com/file/d/1AYQTHTGBaioQucM2cYvOSJRPxxrcEd8U/view?usp=sharing">
+              Download Resume Here
+            </a>
+          </Button>
+        </div>
+
         <p className="font-semibold font-body text-lg">{info.name}</p>
         <p>{info.address}</p>
         <p>{info.number}</p>
