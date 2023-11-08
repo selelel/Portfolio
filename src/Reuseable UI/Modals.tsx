@@ -12,7 +12,7 @@ type Props = {
 function Modals({ children, ...rest }: Props): JSX.Element | null {
   const context = cont();
   const classes = classNames(
-    "fixed inset-20 w-5/12 border border-black h-[30rem] overflow-auto scrollbar-hide bg-white m-3 min-w-[20rem] mx-auto rounded-xl shadow-2xl",
+    "fixed inset-0 top-16 w-5/12 border border-black h-[30rem] overflow-auto scrollbar-hide bg-white m-3 min-w-[20rem] mx-auto rounded-xl shadow-2xl",
     rest.className
   );
 
@@ -37,7 +37,7 @@ function Modals({ children, ...rest }: Props): JSX.Element | null {
     <div>
       <div
         onClick={() => {
-          context?.setModal(false);
+          context?.toToggle();
         }}
         className="fixed inset-0 backdrop-blur-sm"
       ></div>

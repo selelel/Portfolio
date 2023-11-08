@@ -16,7 +16,6 @@ type Outputprops = {
   toToggle: () => void;
   isOpen: boolean;
   phoneMenu: string;
-  ViewModal: JSX.Element | "";
 };
 
 const Context = createContext<Outputprops | null>(null);
@@ -25,22 +24,12 @@ const Provider = ({ children }: Props) => {
   const [isOpen, setOpen] = useState(false);
   const [modal, setModal] = useState(false);
   const toToggle = () => {
-    modal === true ? setModal(false) : setModal(true);
+    setModal(!modal);
   };
 
   const phoneMenu = classNames(
     "z-10 fixed left-0 rigth-0 top-0 bg-white w-screen flex flex-col justify-center items-center media-show",
     isOpen ? "animation-slide" : "hidden"
-  );
-
-  const ViewModal = modal ? (
-    <div className="z-20 fixed">
-      <Modals onClose={toToggle}>
-        <Resume />
-      </Modals>
-    </div>
-  ) : (
-    ""
   );
 
   return (
@@ -52,7 +41,6 @@ const Provider = ({ children }: Props) => {
         isOpen,
         setOpen,
         phoneMenu,
-        ViewModal,
       }}
     >
       {children}
