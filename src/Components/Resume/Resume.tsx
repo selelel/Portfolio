@@ -8,7 +8,7 @@ const Resume = () => {
     <>
       <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
         <Button secondary className="text-sm text-gray-900">
-          <a href="https://drive.google.com/file/d/1TLPm0YkEFl8xSmVa0bGEN8dt91-KE8th/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1AYQTHTGBaioQucM2cYvOSJRPxxrcEd8U/view?usp=sharing">
             Download Resume Here
           </a>
         </Button>
@@ -16,6 +16,11 @@ const Resume = () => {
         <p>{info.address}</p>
         <p>{info.number}</p>
         <p>{info.email}</p>
+      </div>
+
+      <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
+        <p className="font-semibold font-body text-lg">About</p>
+        <p className="text-justify">{info.about}</p>
       </div>
 
       <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
@@ -28,12 +33,12 @@ const Resume = () => {
 
         {info.education.map((el, index) => {
           return (
-            <div className="flex h-32">
+            <div className="flex h-32 my-4">
               <p className="my-auto h-fit font-semibold mr-6 min-w-fit">
                 {info.education[index].year}
               </p>
               <div className="w-48 border-l border-black pl-6 my-auto h-fit">
-                {info.education[index].desciption}
+                {info.education[index].desciption()}
               </div>
             </div>
           );

@@ -16,8 +16,12 @@ const Main = () => {
 
   return (
     <>
-      {context?.ViewModal}
-      <div className={classN}>
+      {context?.modal && (
+        <Modals>
+          <Resume />
+        </Modals>
+      )}
+      <div className="">
         <div id="hero">
           <Hero />
         </div>
