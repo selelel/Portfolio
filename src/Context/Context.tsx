@@ -13,9 +13,11 @@ type Outputprops = {
   modal: boolean;
   setModal: React.Dispatch<React.SetStateAction<boolean>>;
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  toToggle: () => void;
+  tosetModal: () => void;
   isOpen: boolean;
   phoneMenu: string;
+  tosetTestModal: () => void;
+  testModal: boolean;
 };
 
 const Context = createContext<Outputprops | null>(null);
@@ -23,8 +25,14 @@ const Context = createContext<Outputprops | null>(null);
 const Provider = ({ children }: Props) => {
   const [isOpen, setOpen] = useState(false);
   const [modal, setModal] = useState(false);
-  const toToggle = () => {
+  const [testModal, setTestModal] = useState(false);
+
+  const tosetModal = () => {
     setModal(!modal);
+  };
+
+  const tosetTestModal = () => {
+    setTestModal(!testModal);
   };
 
   const phoneMenu = classNames(
@@ -37,10 +45,12 @@ const Provider = ({ children }: Props) => {
       value={{
         modal,
         setModal,
-        toToggle,
+        tosetModal,
         isOpen,
         setOpen,
         phoneMenu,
+        testModal,
+        tosetTestModal,
       }}
     >
       {children}

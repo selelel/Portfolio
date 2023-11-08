@@ -28,7 +28,7 @@ function Hero() {
 
             <Button
               className="flex text-2xl font-thin gap-0 w-fit"
-              onClick={context?.toToggle}
+              onClick={context?.tosetModal}
             >
               <BsFiletypePdf /> <p className="text-sm">Resume</p>
             </Button>

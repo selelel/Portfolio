@@ -6,21 +6,23 @@ import Hero from "./Hero";
 import classNames from "classnames";
 import About from "./About";
 import Projects from "./Projects";
+import Button from "../../Reuseable UI/Button";
 
 const Main = () => {
   const context = useContext(Context);
-  const classN = classNames(
-    "md-lg relative ease-out",
-    context?.modal ? "duration-300 blur-sm" : "duration-500 blur-none"
-  );
 
   return (
     <>
       {context?.modal && (
-        <Modals>
+        <Modals
+          onClose={() => {
+            context?.tosetModal();
+          }}
+        >
           <Resume />
         </Modals>
       )}
+
       <div className="">
         <div id="hero">
           <Hero />

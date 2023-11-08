@@ -43,7 +43,7 @@ const Nav = () => {
         <Navigate section={"./#project"} className="font-thin text-xl">
           Project
         </Navigate>
-        <Navigate onClick={context?.toToggle} className="font-thin text-xl">
+        <Navigate onClick={context?.tosetModal} className="font-thin text-xl">
           Resume
         </Navigate>
       </div>
@@ -71,7 +71,7 @@ const Nav = () => {
           <Navigate section={"./#project"} className="font-thin">
             Project
           </Navigate>
-          <Navigate onClick={context?.toToggle} className="font-bold">
+          <Navigate onClick={context?.tosetModal} className="font-bold">
             Resume
           </Navigate>
         </div>

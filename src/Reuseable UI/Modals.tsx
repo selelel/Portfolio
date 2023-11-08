@@ -36,9 +36,7 @@ function Modals({ children, ...rest }: Props): JSX.Element | null {
   return ReactDOM.createPortal(
     <div>
       <div
-        onClick={() => {
-          context?.toToggle();
-        }}
+        onClick={rest?.onClose}
         className="fixed inset-0 backdrop-blur-sm"
       ></div>
       <div className={classes}>
