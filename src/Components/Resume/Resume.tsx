@@ -9,7 +9,10 @@ const Resume = () => {
       <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
         <div className="flex justify-end">
           <Button secondary className="text-sm text-gray-900">
-            <a href="https://drive.google.com/file/d/1AYQTHTGBaioQucM2cYvOSJRPxxrcEd8U/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/1Ypo4bVp6dvmr4-s5XlJScgz0l04JlcT7/view?usp=sharing"
+              target="_blank"
+            >
               Download Resume Here
             </a>
           </Button>

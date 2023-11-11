@@ -9,7 +9,7 @@ const About = () => {
           <p className="min-w-fit pr-1 py-2 text-3xl font-semibold">About me</p>
           <div className="ml-0 pl-0 md:py-6 border-black md:border-l-2 md:ml-3 md:pl-10 w-full">
             <p className="text-2xl font-semibold mb-5">
-              Fan of learning stuff 🤓
+              Passionate about learning. 🌱
             </p>
             <p>
               I'm Jan Russel, a front-end web developer eager to learn and grow
