@@ -1,4 +1,4 @@
-# [Your Name]'s Portfolio
+# Jan Russel Gorembalems's Portfolio
 
 Welcome to my portfolio! Discover my portfolio – a visual journey through my creative work and skills. Explore and connect today!
 
