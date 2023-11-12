@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# [Your Name]'s Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! Discover my portfolio – a visual journey through my creative work and skills. Explore and connect today!
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Projects](#projects)
+- [Skills](#skills)
+- [Contact Information](#contact-information)
+- [License](#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I am Jan Russel, a self-taught front-end web developer, currently learning and eager to grow in the world of web development. With a passion for design and a drive to create user-friendly websites, I'm excited to improve my skills and take on new challenges in this field.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+My portfolio is a visual journey through my creative work and skills. It serves as a glimpse into my professional journey, showcasing various projects that I am proud to have been a part of. Explore today to discover my evolving expertise in front-end development and design. Connect with me as I continue to learn and contribute to the ever-changing landscape of web development.
 
-### `npm test`
+## Projects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Portfolio Website
 
-### `npm run build`
+- **Description:** My portfolio (_this website_) – a visual journey through my creative work and skills.
+- **Technologies Used:** TailwindCSS, ReactJS,Typescript
+- **Link to Project:** https://selelel.github.io/portfolio/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### VerText
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Description:** VerText is the go-to website for quick and easy text transformations. Convert text to uppercase, lowercase, or Morse code in seconds, and express yourself with flair.
+- **Technologies Used:** Tailwind, ReactJS
+- **Link to Project:** https://selelel.github.io/vertext/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Skills
 
-### `npm run eject`
+Highlight your key skills and areas of expertise. This can include programming languages, tools, frameworks, and any other relevant skills. Feel free to organize them based on proficiency or relevance.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Languages:** JavaScript/TypeScript, C#, Java
+- **Frontend:** React, TailwindCSS
+- **Tools:** Discord, Git, GitHub/GitLab
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact Information
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Email:** janrusselgorembalem4@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/jan-russel-gorembalem-828630241/
+- **Github:** https://github.com/selelel
