@@ -60,6 +60,15 @@ const info = {
 
 const projects = [
   {
+    name: "Pawn Reciept",
+    description:
+      "Pawn Reciept: Elevate your Chess.com stats with stylish receipts for a visually pleasing showcase of chess prowess.",
+    urlGit: "https://github.com/selelel/pawn-peek",
+    urlHomepage: "https://selelel.github.io/pawn-reciept",
+    urlImg: require("./img/soon.gif"),
+    techStack: ["Tailwind", "ReactJS", "TypeScript"],
+  },
+  {
     name: "Portfolio Website",
     description:
       "Discover my portfolio – a visual journey through my creative work and skills. Explore and connect today!",

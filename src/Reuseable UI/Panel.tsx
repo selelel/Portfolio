@@ -31,10 +31,14 @@ function Panel({ ...rest }: prop) {
           <div className="flex flex-wrap gap-2 my-1">{techUsed}</div>
           <div className="flex gap-2">
             <Button secondary className="my-1">
-              <a href={rest.linkGit}>Code</a>
+              <a href={rest.linkGit} target="_blank">
+                Code
+              </a>
             </Button>
             <Button secondary className="my-1">
-              <a href={rest.link}>HomePage</a>
+              <a href={rest.link} target="_blank">
+                HomePage
+              </a>
             </Button>
           </div>
         </div>
