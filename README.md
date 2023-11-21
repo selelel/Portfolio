@@ -18,6 +18,12 @@ My portfolio is a visual journey through my creative work and skills. It serves 
 
 ## Projects
 
+### Pawn Reciept 
+
+- **Description:** Pawn Reciept: Elevate your Chess.com stats with stylish receipts for a visually pleasing showcase of chess prowess.
+- **Technologies Used:** TailwindCSS, ReactJS,Typescript
+- **Link to Project:** https://selelel.github.io/pawn-reciept/
+
 ### Portfolio Website
 
 - **Description:** My portfolio (_this website_) – a visual journey through my creative work and skills.
