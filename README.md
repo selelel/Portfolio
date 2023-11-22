@@ -1,4 +1,4 @@
-# [Your Name]'s Portfolio
+# Jan Russel Gorembalems's Portfolio
 
 Welcome to my portfolio! Discover my portfolio – a visual journey through my creative work and skills. Explore and connect today!
 
@@ -17,6 +17,12 @@ I am Jan Russel, a self-taught front-end web developer, currently learning and e
 My portfolio is a visual journey through my creative work and skills. It serves as a glimpse into my professional journey, showcasing various projects that I am proud to have been a part of. Explore today to discover my evolving expertise in front-end development and design. Connect with me as I continue to learn and contribute to the ever-changing landscape of web development.
 
 ## Projects
+
+### Pawn Reciept 
+
+- **Description:** Pawn Reciept: Elevate your Chess.com stats with stylish receipts for a visually pleasing showcase of chess prowess.
+- **Technologies Used:** TailwindCSS, ReactJS,Typescript
+- **Link to Project:** https://selelel.github.io/pawn-reciept/
 
 ### Portfolio Website
 
