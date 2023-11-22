@@ -1,5 +1,5 @@
 import Context from "../../Context/Context";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import Resume from "../Resume/Resume";
 import Modals from "../../Reuseable UI/Modals";
 import Hero from "./Hero";
@@ -8,6 +8,8 @@ import Projects from "./Projects";
 
 const Main = () => {
   const context = useContext(Context);
+
+  useEffect(() => {}, []);
 
   return (
     <>
