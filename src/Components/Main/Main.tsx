@@ -5,6 +5,7 @@ import Modals from "../../Reuseable UI/Modals";
 import Hero from "./Hero";
 import About from "./About";
 import Projects from "./Projects";
+import Footer from "./Footer";
 
 const Main = () => {
   const context = useContext(Context);
@@ -34,6 +35,7 @@ const Main = () => {
         <div id="project">
           <Projects />
         </div>
+        <Footer />
       </div>
     </>
   );
