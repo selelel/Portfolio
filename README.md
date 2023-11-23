@@ -38,7 +38,7 @@ My portfolio is a visual journey through my creative work and skills. It serves 
 
 ## Skills
 
-Highlight your key skills and areas of expertise. This can include programming languages, tools, frameworks, and any other relevant skills. Feel free to organize them based on proficiency or relevance.
+Technologies I am using.
 
 - **Languages:** JavaScript/TypeScript, C#, Java
 - **Frontend:** React, TailwindCSS
