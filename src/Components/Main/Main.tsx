@@ -10,8 +10,6 @@ import Footer from "./Footer";
 const Main = () => {
   const context = useContext(Context);
 
-  useEffect(() => {}, []);
-
   return (
     <>
       {context?.modal && (
@@ -35,7 +33,6 @@ const Main = () => {
         <div id="project">
           <Projects />
         </div>
-        <Footer />
       </div>
     </>
   );

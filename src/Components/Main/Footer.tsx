@@ -5,17 +5,20 @@ function Footer() {
 
       <ul className="flex gap-3 cursor-pointer">
         <li>
-          <a href="./#hero">Home</a>
+          <a href="/portfolio/#hero">Home</a>
         </li>
         <li>
-          <a href="/#about">About</a>
+          <a href="/portfolio/#about">About</a>
         </li>
         <li>
-          <a href="/#project">Project</a>
+          <a href="/portfolio/#project">Project</a>
+        </li>
+        <li>
+          <a href="/portfolio/blogs">My Blogs</a>
         </li>
       </ul>
 
-      <h1 className="text-xs">Developed by Jan Russel "Sel" Gorembalem</h1>
+      <h1 className="text-xs">Developed by Jan Russel Gorembalem</h1>
       <h1 className="text-xs">@2023</h1>
     </div>
   );
