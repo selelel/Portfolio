@@ -4,13 +4,13 @@ import { useInView } from "react-intersection-observer";
 import classNames from "classnames";
 
 const Projects = () => {
-  const { ref, inView, entry } = useInView({
-    threshold: 0.15,
+  const { ref, inView } = useInView({
+    threshold: 0.05,
     triggerOnce: true,
   });
 
   const classes = classNames(
-    "md:mx-10 mt-32 mb-32 min-h-[30rem] flex flex-col justify-center items-center section",
+    "md:mx-10 mt-32 min-h-[30rem] flex flex-col justify-center items-center section",
     inView ? "" : "section--hidden"
   );
 

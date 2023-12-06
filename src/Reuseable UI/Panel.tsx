@@ -1,17 +1,8 @@
+import { panelProps } from "../Types/Ui";
 import Button from "./Button";
 import TagIcon from "./tagIcon";
-import classNames from "classnames";
 
-type prop = {
-  description: string;
-  name: string;
-  linkGit: string;
-  link: string;
-  linkImg: string;
-  tech: string[];
-};
-
-function Panel({ ...rest }: prop) {
+function Panel({ ...rest }: panelProps) {
   const techUsed = rest.tech.map((element, index) => {
     return (
       <div key={element}>
@@ -22,7 +13,7 @@ function Panel({ ...rest }: prop) {
 
   return (
     <>
-      <div className="grid md:flex grid-col lg:grid-cols-2 items-center gap-5 lg:gap-10 md:p-10 rounded-lg h-fit mb-1">
+      <div className="grid place-items-center md:flex grid-col lg:grid-cols-2 items-center gap-5 lg:gap-10 md:p-10 rounded-lg h-fit my-10">
         <div className="mx-auto align-middle max-w-[23rem]">
           <div className="text-2xl md:text-3xl font-semibold my-1">
             {rest.name}
@@ -31,12 +22,12 @@ function Panel({ ...rest }: prop) {
           <div className="flex flex-wrap gap-2 my-1">{techUsed}</div>
           <div className="flex gap-2">
             <Button secondary className="my-1">
-              <a href={rest.linkGit} target="_blank">
+              <a href={rest.linkGit} target="_blank" rel="noreferrer">
                 Code
               </a>
             </Button>
             <Button secondary className="my-1">
-              <a href={rest.link} target="_blank">
+              <a href={rest.link} target="_blank" rel="noreferrer">
                 HomePage
               </a>
             </Button>

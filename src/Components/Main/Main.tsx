@@ -1,27 +1,13 @@
-import Context from "../../Context/Context";
-import { useContext, useEffect } from "react";
-import Resume from "../Resume/Resume";
-import Modals from "../../Reuseable UI/Modals";
 import Hero from "./Hero";
 import About from "./About";
 import Projects from "./Projects";
-import Footer from "./Footer";
+import Contact from "./Contact";
+import DisplayResumeModal from "../../Reuseable UI/DisplayResumeModal";
 
 const Main = () => {
-  const context = useContext(Context);
-
   return (
     <>
-      {context?.modal && (
-        <Modals
-          onClose={() => {
-            context?.tosetModal();
-          }}
-        >
-          <Resume />
-        </Modals>
-      )}
-
+      <DisplayResumeModal />
       <div className="">
         <div id="hero">
           <Hero />
@@ -32,6 +18,9 @@ const Main = () => {
         </div>
         <div id="project">
           <Projects />
+        </div>
+        <div id="contact">
+          <Contact />
         </div>
       </div>
     </>
