@@ -10,12 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-
-      - name: Install dependencies
-        run: npm install
-
       - name: Log environment variables
         run: |
           echo "FIREBASE_API_KEY: ${REACT_APP_FIREBASE_API_KEY:-not set}"
@@ -25,6 +19,11 @@ jobs:
           echo "FIREBASE_MESSAGING_SENDER_ID: ${REACT_APP_FIREBASE_MESSAGING_SENDER_ID:-not set}"
           echo "FIREBASE_APP_ID: ${REACT_APP_FIREBASE_APP_ID:-not set}"
           echo "FIREBASE_MEASUREMENT_ID: ${REACT_APP_FIREBASE_MEASUREMENT_ID:-not set}"
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install dependencies
+        run: npm install
 
       - name: Build the application
         run: npm run build
@@ -38,7 +37,7 @@ jobs:
           REACT_APP_FIREBASE_MEASUREMENT_ID: ${{ secrets.REACT_APP_FIREBASE_MEASUREMENT_ID }}
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: peaceiris/actions-gh-pages
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
