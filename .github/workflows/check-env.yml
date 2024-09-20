@@ -13,7 +13,7 @@ jobs:
       - name: Log environment variables
         run: |
           echo "FIREBASE_API_KEY: ${REACT_APP_FIREBASE_API_KEY:-not set}"
-          echo "FIREBASE_AUTH_DOMAIN: ${REACT_APP_FIREBASE_AUTH_DOMAIN:-not set}"
+          echo "FIREBASE_AUTH_DOMAIN: ${APP_FIREBASE_AUTH_DOMAIN:-not set}"
           echo "FIREBASE_PROJECT_ID: ${REACT_APP_FIREBASE_PROJECT_ID:-not set}"
 
         env:
