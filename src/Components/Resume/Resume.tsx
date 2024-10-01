@@ -7,17 +7,16 @@ import { marked } from 'marked';
 
 const Resume: React.FC = () => {
   const data = json
-  console.log(data);
   return (
     <>
       <div className="mx-3 p-3 text-[0.7rem] tracking-wide">
         <div className="flex justify-end">
           <Button secondary className="text-sm text-gray-900">
-            <a
-              href="https://drive.google.com/file/d/1HdcKP064ZQ90JBHXd8S7_LtoFjTKvvVF/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <a
+            href="https://drive.google.com/file/d/1HdcKP064ZQ90JBHXd8S7_LtoFjTKvvVF/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
               View Actual Resume
             </a>
           </Button>
@@ -29,10 +28,10 @@ const Resume: React.FC = () => {
           {[data.userEmail, data.userPhoneNumber, data.userAddress].filter(Boolean).join(" | ")}
         </div>
         <div className="flex flex-wrap justify-center">
-        {data.links.map((d, index) => (
-          <a key={index} href={d.url} target="_blank" className="cursor-pointer hover:underline">
-            {d.network}{index < data.links.length - 1 && "|"}
-          </a>
+        {data.links.map((d) => (
+          <p key={d.network} onClick={() => window.open(d.url, "_blank", "noreferrer")}>
+            {d.network} |
+          </p>
         ))}
       </div>
       </div>
@@ -56,9 +55,11 @@ const Resume: React.FC = () => {
         <p className="font-semibold font-body text-lg">Certification</p>
         <ul className="list-disc ml-5">
           {data.certifications.map((d) => (
-            <li key={d.id} className="text-justify m-1">{d.description} - <strong><a href={d.url} target="_blank">{d.issuedBy}</a></strong></li>
+            <li key={d.id} className="text-justify m-1">
+            {d.description} - <strong><a href={d.url} target="_blank" rel="noreferrer">{d.issuedBy}</a></strong>
+          </li>
           ))}
-          <li className="text-justify m-1">Tagisan ng Talino Codefest 2022-2023 Local Level - <strong><a target="_blank">STI College Carmona</a></strong></li>
+          <li className="text-justify m-1">Tagisan ng Talino Codefest 2022-2023 Local Level - <strong><a href="https://drive.google.com/file/d/1UGECzkig1-vdIDx3uZR2qiP1vgsxXl5E/view?usp=sharing" target="_blank" rel="noreferrer">STI College Carmona</a></strong></li>
         </ul>
       </div>
 
