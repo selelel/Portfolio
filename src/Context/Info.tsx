@@ -86,16 +86,16 @@ const projects = [
     urlImg: require("./img/portfolio.gif"),
     techStack: ["Tailwind", "ReactJS", "TypeScript"],
   },
-  // {
-  //   name: "Vertext",
-  //   description:
-  //     "VerText is the go-to website for quick and easy text transformations. Convert text to uppercase, lowercase, or Morse code in seconds, and express yourself with flair.",
-  //   urlGit: "https://github.com/selelel/vertext",
-  //   urlHomepage:
-  //     "https://selelel.github.io/vertext/?fbclid=IwAR2C3kuhUs6n2lm6GiMPt3-N3EwGzVw7s_UX7iGF7kff2JHC4fb_F2KNMew",
-  //   urlImg: require("./img/vertext.gif"),
-  //   techStack: ["Tailwind", "ReactJS"],
-  // },
+  {
+    name: "Vertext",
+    description:
+      "VerText is the go-to website for quick and easy text transformations. Convert text to uppercase, lowercase, or Morse code in seconds, and express yourself with flair.",
+    urlGit: "https://github.com/selelel/vertext",
+    urlHomepage:
+      "https://selelel.github.io/vertext/?fbclid=IwAR2C3kuhUs6n2lm6GiMPt3-N3EwGzVw7s_UX7iGF7kff2JHC4fb_F2KNMew",
+    urlImg: require("./img/vertext.gif"),
+    techStack: ["Tailwind", "ReactJS"],
+  },
 ];
 
 export { projects, info };

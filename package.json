@@ -20,6 +20,7 @@
     "eslint-plugin-risxss": "^2.1.0",
     "firebase": "^10.6.0",
     "hamburger-react": "^2.5.0",
+    "marked": "^14.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",

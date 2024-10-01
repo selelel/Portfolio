@@ -39,18 +39,26 @@ const About = () => {
 
 const Skill = () => {
   const Icons = [
+    "Java",
     "JavaScript",
-    "Typescript",
+    "TypeScript",
+    "Python",
+    "SQL",
+    "ReactJS",
+    "NextJS",
+    "NodeJs",
+    "ExpressJS",
+    "NestJS",
     "Tailwind",
-    "Git",
-    "ReactJs",
     "React-Redux",
     "Firebase",
     "Supabase",
-    "JQuery",
-    "Node",
-    "SQL",
-    "Andriod Studio",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "Postman",
+    "Playwright",
+    "Jest"
   ].map((Element, id) => {
     return <TagIcon key={id}>{Element}</TagIcon>;
   });

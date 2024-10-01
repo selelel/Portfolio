@@ -1,0 +1,257 @@
+{
+    "userFirstName": "Jan Russel",
+    "userLastName": "Gorembalem",
+    "userHeading": "Frontend Web Developer",
+    "userEmail": "janrusselgorembalem4@gmail.com",
+    "userAddress": "Bulihan Silang Cavite",
+    "userPhoneNumber": "09814595078",
+    "id": 235851,
+    "resumeId": 235851,
+    "uuid": "3cb39f35-5b1a-444c-af05-d7edccc578b0",
+    "templateId": 4,
+    "cvName": "Jan's Resume",
+    "inReview": false,
+    "isShared": false,
+    "updatedAfterReview": false,
+    "createdAt": "2024-05-01T05:58:10.260Z",
+    "updatedAt": "2024-09-30T02:58:48.040Z",
+    "templateUrl": "https://hackerresume-prod.s3.us-east-1.amazonaws.com/thumbnails/25398026/3cb39f35-5b1a-444c-af05-d7edccc578b0.png",
+    "activeReviewId": 0,
+    "inAiReview": false,
+    "reviewDone": false,
+    "userReviewFeedbackDone": false,
+    "awards": [
+      {
+        "id": 210665,
+        "summary": "STI Carmona Tagisan ng Talino at sining 2023 CodeFest Hackathon (Champion)",
+        "sortOrderId": 0,
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T06:28:01.800Z",
+        "updatedAt": "2024-05-01T06:28:01.800Z"
+      },
+      {
+        "id": 210668,
+        "summary": "STI Las Pinas Tagisan ng Talino at sining 2023 CodeFest Hackathon (School Representative)",
+        "sortOrderId": 1,
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T06:32:16.138Z",
+        "updatedAt": "2024-05-01T06:32:16.138Z"
+      },
+      {
+        "id": 210666,
+        "summary": "Mapúa MCL ACM CodeX Competition 2023 (School Representative)",
+        "sortOrderId": 2,
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T06:28:20.937Z",
+        "updatedAt": "2024-05-01T06:28:20.937Z"
+      }
+    ],
+    "certifications": [
+      {
+        "id": 325803,
+        "description": "Python (Basic) Certificate",
+        "issuedBy": "HackerRank",
+        "url": "https://www.hackerrank.com/certificates/b07e47833b75",
+        "sortOrderId": 0,
+        "resumeId": 235851,
+        "createdAt": "2024-08-08T02:17:55.308Z",
+        "updatedAt": "2024-08-08T02:19:08.431Z"
+      },
+      {
+        "id": 325804,
+        "description": "JavaScript (Basic) Certificate",
+        "issuedBy": "HackerRank",
+        "url": "https://www.hackerrank.com/certificates/de677db74173",
+        "sortOrderId": 1,
+        "resumeId": 235851,
+        "createdAt": "2024-08-08T02:18:50.021Z",
+        "updatedAt": "2024-08-08T02:19:08.431Z"
+      }
+    ],
+    "education": [
+      {
+        "id": 511880,
+        "degree": "",
+        "startDate": "July 2020",
+        "completionDate": "July 2023",
+        "institution": "STI College Carmona",
+        "location": "",
+        "score": "",
+        "scoreType": "",
+        "studyType": "Mobile Application and Web Development",
+        "sortOrderId": 0,
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T06:00:20.277Z",
+        "updatedAt": "2024-09-30T02:58:55.061Z"
+      }
+    ],
+    "work": [
+      {
+        "id": 364192,
+        "description": "- Focused on **backend development** while contributing to full stack tasks.\n- Conducted research on integrating **Plaid API** for financial services.\n- Integrated and configured **Supabase** for database management and authentication.\n- Collaborated in an **Agile development environment** to ensure efficient project delivery.\n- Worked with a tech stack that includes **Supabase**, **Plaid**, **Next.js**, **GitHub**, and **Git** for version control.",
+        "endDate": "",
+        "currentJob": false,
+        "role": "Intern Web Developer",
+        "location": "Philippines",
+        "company": "Codebility",
+        "startDate": "August 2024",
+        "sortOrderId": 0,
+        "resumeId": 235851,
+        "createdAt": "2024-09-13T05:34:50.523Z",
+        "updatedAt": "2024-09-30T02:58:55.061Z"
+      },
+      {
+        "id": 317247,
+        "description": "- Developed and maintained both front-end and back-end systems for a tourism-focused travel agency specializing in El Nido.\n- Collaborated closely with a skilled software developer remotely to deliver high-quality solutions.\n- Contributed with **Next.js** for responsive front-end development.\n- Employed **NestJS** for building efficient and scalable backend services.\n- Maintained **Retool** for content management system.\n- Managed media assets using **AWS S3** for efficient storage and retrieval.",
+        "endDate": "May 2024",
+        "currentJob": false,
+        "role": "Junior Frontend Developer",
+        "location": "Philippines",
+        "company": "Freelancer / Contractor",
+        "startDate": "January 2024",
+        "sortOrderId": 1,
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T06:02:04.050Z",
+        "updatedAt": "2024-09-30T02:58:55.061Z"
+      },
+      {
+        "id": 317250,
+        "description": "- Collaborated with a team of talented senior developers, gaining hands-on experience in a corporate, remote-working environment.\n- Contributed to multiple projects following **Agile methodologies**, ensuring timely delivery and effective teamwork.\n- Utilized **Next.js/React.js** and **TypeScript** for building dynamic and maintainable front-end applications.\n- Developed back-end services using **ExpressJS**, integrated with **Firebase** and **Supabase** for authentication, database management, and cloud functionalities.",
+        "endDate": "January 2024",
+        "currentJob": false,
+        "role": "Intern Frontend Developer",
+        "location": "Philippines",
+        "company": "Equinox Horizons",
+        "startDate": "September 2023",
+        "sortOrderId": 2,
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T06:08:42.848Z",
+        "updatedAt": "2024-09-30T02:58:55.061Z"
+      }
+    ],
+    "projects": [
+      {
+        "id": 465631,
+        "name": "Diurnarius Blog",
+        "description": "Diurnarius is your digital companion, captures your daily experiences, reflections, and aspirations. It's a space to document your progress, share your thoughts, and connect with others.",
+        "keywords": ["ReactJS | Firebase | Tailwind | TypeScript"],
+        "url": "https://selelel.github.io/diurnarius/",
+        "sortOrderId": 0,
+        "resumeId": 235851,
+        "createdAt": "2024-08-03T08:46:32.376Z",
+        "updatedAt": "2024-08-03T08:49:28.831Z"
+      },
+      {
+        "id": 465630,
+        "name": "Pawn Reciept",
+        "description": "Pawn Receipt: Elevate your Chess.com stats with stylish receipts for a visually pleasing showcase of chess prowess.",
+        "keywords": ["Tailwind | ReactJS | TypeScript"],
+        "url": "https://selelel.github.io/pawn-reciept/",
+        "sortOrderId": 1,
+        "resumeId": 235851,
+        "createdAt": "2024-08-03T08:43:58.884Z",
+        "updatedAt": "2024-08-03T08:49:28.831Z"
+      }
+    ],
+    "skills": [
+      {
+        "id": 943195,
+        "skillType": "programming",
+        "skillValues": ["Java", "Javascript", "C#", "Python", "SQL", "Typescript", "GraphQL", "Restful API"],
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T05:58:10.260Z",
+        "updatedAt": "2024-09-13T05:50:06.226Z"
+      },
+      {
+        "id": 943196,
+        "skillType": "frameworks",
+        "skillValues": ["ReactJS", "NextJS", "NodeJs", "ExpressJS", "NestJS", "Tailwind", "React-Redux", "JQuery", "GraphQL", "Playwright", "Jest"],
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T05:58:10.260Z",
+        "updatedAt": "2024-09-13T05:50:06.226Z"
+      },
+      {
+        "id": 943197,
+        "skillType": "database",
+        "skillValues": ["Firebase", "MongoDB", "Postgres", "Supabase"],
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T05:58:10.260Z",
+        "updatedAt": "2024-09-13T05:50:06.226Z"
+      },
+      {
+        "id": 943198,
+        "skillType": "tools",
+        "skillValues": ["Discord", "ClickUp", "Git", "GitHub", "VS Code", "Postman", "Slack", "GitLab"],
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T05:58:10.260Z",
+        "updatedAt": "2024-09-13T05:50:06.226Z"
+      }
+    ],
+    "links": [
+      {
+        "id": 323817,
+        "network": "Portfolio",
+        "username": "",
+        "url": "https://selelel.github.io/portfolio/",
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T06:00:04.817Z",
+        "updatedAt": "2024-09-13T05:54:54.716Z"
+      },
+      {
+        "id": 323823,
+        "network": "Linkedin",
+        "username": "",
+        "url": "https://www.linkedin.com/in/jan-russel-gorembalem/",
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T06:30:13.869Z",
+        "updatedAt": "2024-09-13T05:54:54.716Z"
+      },
+      {
+        "id": 323824,
+        "network": "GitHub",
+        "username": "",
+        "url": "https://github.com/selelel",
+        "resumeId": 235851,
+        "createdAt": "2024-05-01T06:30:28.109Z",
+        "updatedAt": "2024-09-13T05:54:54.716Z"
+      },
+      {
+        "id": 391413,
+        "network": "LeetCode",
+        "username": "",
+        "url": "https://leetcode.com/u/_selelel/",
+        "resumeId": 235851,
+        "createdAt": "2024-09-13T05:54:27.830Z",
+        "updatedAt": "2024-09-13T05:54:54.716Z"
+      }
+    ],
+    "user": {
+      "id": 290504,
+      "uid": "25398026",
+      "name": "Jan Russel Gorembalem",
+      "role": "",
+      "companyName": "",
+      "lastActiveToken": "",
+      "createdAt": "2024-05-01T05:57:57.834Z",
+      "updatedAt": "2024-08-03T08:43:31.776Z",
+      "lastNotificationCheck": "2024-05-01T05:57:57.834Z",
+      "incompleteResumeEmailCount": 0,
+      "reviewer": false,
+      "reviewCredits": 5,
+      "uploadCredits": 10,
+      "reviewOnboardingDone": false,
+      "hacker_id": "25398026",
+      "username": "_selelel",
+      "email": "janrusselgorembalem4@gmail.com",
+      "secondary_emails": [],
+      "banners": {},
+      "credits": {
+        "uploadCredits": 10,
+        "reviewCredits": 5
+      },
+      "existingResume": {}
+    },
+    "userId": 290504,
+    "review": null
+  }
+  
