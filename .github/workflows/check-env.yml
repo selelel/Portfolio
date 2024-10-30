@@ -1,0 +1,21 @@
+name: Check Vercel Environment Variables
+
+on:
+  push:
+    branches:
+      - test-branch
+
+jobs:
+  check-vercel-env:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Log Vercel environment variable, RUUUUNN!!!!
+        run: |
+          echo "VERCEL_ORG_ID: ${VERCEL_ORG_ID:-not set}"
+          echo "VERCEL_PROJECT_ID: ${VERCEL_PROJECT_ID:-not set}"
+          echo "VERCEL_TOKEN: ${VERCEL_TOKEN:-not set}"
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}

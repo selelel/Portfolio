@@ -58,7 +58,9 @@ const Skill = () => {
     "GitHub",
     "Postman",
     "Playwright",
-    "Jest"
+    "Jest",
+    "RESTful",
+    "GraphQL"
   ].map((Element, id) => {
     return <TagIcon key={id}>{Element}</TagIcon>;
   });
