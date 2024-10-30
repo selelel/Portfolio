@@ -20,7 +20,7 @@ function Blog() {
       <h1 className="text-2xl font-bold">Blogs</h1>
       {sortedPosts.map((post) => (
         <Fragment key={post.id}>
-          <Link to={`/portfolio/blogs/${post?.id}`}>
+          <Link to={`/blogs/${post?.id}`}>
             <ArticlePanel
               title={post.title}
               desc={post.desc}

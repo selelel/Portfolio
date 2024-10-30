@@ -21,7 +21,7 @@ function App() {
   const blogRoutes = blog.map((post) => (
     <Route
       key={post.id}
-      path={`/portfolio/blogs/${post.id}`}
+      path={`/blogs/${post.id}`}
       element={<ArticleIndi props={post} />}
     />
   ));
@@ -31,8 +31,8 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route path="/portfolio" element={<Main />} />
-          <Route path="/portfolio/blogs" element={<Blog />} />
+          <Route path="/" element={<Main />} />
+          <Route path="/blogs" element={<Blog />} />
           {blogRoutes}
         </Routes>
         <Footer />

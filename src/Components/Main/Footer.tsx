@@ -7,15 +7,15 @@ function Footer() {
 
       <ul className="flex gap-3 cursor-pointer">
         <li>
-          <a href="/portfolio/#hero">Home</a>
+          <a href="/#hero">Home</a>
         </li>
         <li>
-          <a href="/portfolio/#about">About</a>
+          <a href="/#about">About</a>
         </li>
         <li>
-          <a href="/portfolio/#project">Project</a>
+          <a href="/#project">Project</a>
         </li>
-        <Link to="/portfolio/blogs">My Blogs</Link>
+        <Link to="/blogs">My Blogs</Link>
       </ul>
 
       <h1 className="text-xs">Developed by Jan Russel Gorembalem</h1>

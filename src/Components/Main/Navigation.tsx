@@ -43,20 +43,20 @@ const Nav = () => {
   return (
     <div className="fixed top-0 z-30 flex align-middle">
       <div className={phoneMenu}>
-        <Navigate section={"/portfolio/#hero"} className="font-thin text-xl">
+        <Navigate section={"/#hero"} className="font-thin text-xl">
           Home
         </Navigate>
-        <Navigate section={"/portfolio/#about"} className="font-thin text-xl">
+        <Navigate section={"/#about"} className="font-thin text-xl">
           About
         </Navigate>
-        <Navigate section={"/portfolio/#project"} className="font-thin text-xl">
+        <Navigate section={"/#project"} className="font-thin text-xl">
           Project
         </Navigate>
         <Link
           onClick={() => {
             dispatch(phoneToggle());
           }}
-          to={"/portfolio/blogs"}
+          to={"/blogs"}
         >
           <Button className="font-thin text-xl">My Blogs</Button>
         </Link>
@@ -86,16 +86,16 @@ const Nav = () => {
           />
         </div>
         <div className="flex gap-2 media">
-          <Navigate section={"/portfolio/#hero"} className="font-thin ">
+          <Navigate section={"/#hero"} className="font-thin ">
             Home
           </Navigate>
-          <Navigate section={"/portfolio/#about"} className="font-thin">
+          <Navigate section={"/#about"} className="font-thin">
             About
           </Navigate>
-          <Navigate section={"/portfolio/#project"} className="font-thin">
+          <Navigate section={"/#project"} className="font-thin">
             Project
           </Navigate>
-          <Link to={"/portfolio/blogs"}>
+          <Link to={"/blogs"}>
             <Button className="font-thin">My Blogs</Button>
           </Link>
           <Navigate

@@ -34,7 +34,7 @@ My portfolio is a visual journey through my creative work and skills. It serves 
 
 - **Description:** My portfolio (_this website_) – a visual journey through my creative work and skills.
 - **Technologies Used:** TailwindCSS, ReactJS,Typescript
-- **Link to Project:** https://selelel.github.io/portfolio/
+- **Link to Project:** https://selelel.github.io/
 
 ### VerText
 

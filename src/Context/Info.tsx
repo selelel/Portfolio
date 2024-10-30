@@ -82,7 +82,7 @@ const projects = [
     description:
       "Discover my portfolio – a visual journey through my creative work and skills. Explore and connect today!",
     urlGit: "https://github.com/selelel/portfolio",
-    urlHomepage: "https://selelel.github.io/portfolio/",
+    urlHomepage: "https://selelel.github.io/",
     urlImg: require("./img/portfolio.gif"),
     techStack: ["Tailwind", "ReactJS", "TypeScript"],
   },
