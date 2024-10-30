@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Log Vercel environment variable
+      - name: Log Vercel environment variable, RUUUUNN!!!!
         run: |
           echo "VERCEL_ORG_ID: ${VERCEL_ORG_ID:-not set}"
           echo "VERCEL_PROJECT_ID: ${VERCEL_PROJECT_ID:-not set}"
