@@ -3,7 +3,7 @@ name: Check Environment Variables
 on:
   push:
     branches:
-      - main  # Change this to your default branch if different
+      - test-branch
 
 jobs:
   check-env:
@@ -20,7 +20,7 @@ jobs:
           echo "FIREBASE_APP_ID: ${REACT_APP_FIREBASE_APP_ID:-not set}"
           echo "FIREBASE_MEASUREMENT_ID: ${REACT_APP_FIREBASE_MEASUREMENT_ID:-not set}"
         env:
-          REACT_APP_FIREBASE_API_KEY: ${{ env.REACT_APP_FIREBASE_API_KEY }}
+          REACT_APP_FIREBASE_API_KEY: ${{ secrets.REACT_APP_FIREBASE_API_KEY }}
           REACT_APP_FIREBASE_AUTH_DOMAIN: ${{ secrets.REACT_APP_FIREBASE_AUTH_DOMAIN }}
           REACT_APP_FIREBASE_PROJECT_ID: ${{ secrets.REACT_APP_FIREBASE_PROJECT_ID }}
           REACT_APP_FIREBASE_STORAGE_BUCKET: ${{ secrets.REACT_APP_FIREBASE_STORAGE_BUCKET }}

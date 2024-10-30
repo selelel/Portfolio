@@ -3,7 +3,7 @@ name: Check Vercel Environment Variables
 on:
   push:
     branches:
-      - "**"  # This pattern matches all branches
+      - test-branch
 
 jobs:
   check-vercel-env:
