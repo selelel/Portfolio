@@ -4,14 +4,17 @@ import "./index.css";
 import App from "./App";
 import { Provider } from "react-redux";
 import { store } from "./Store";
+import AppWrapper from "./Components/wrapper/appWrapper";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <AppWrapper>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </AppWrapper>
   </React.StrictMode>
 );
