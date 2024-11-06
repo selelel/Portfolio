@@ -3,26 +3,31 @@ import { z } from 'zod';
 const AppConfigSchema = z.object({
   name: z
     .string({
-      description: `This is the name of your SaaS. Ex. "CiscoAssurance"`,
-      required_error: `Please provide the variable SITE_NAME`,
+      description: `Jan Russel Gorembalem`,
     })
-    .min(1, "SITE_NAME cannot be empty"),
+    .min(1)
+    .default("Jan Russel Gorembalem"),
+
   title: z
     .string({
-      description: `This is the default title tag of your SaaS. Ex. "CiscoAssurance"`,
-      required_error: `Please provide the variable SITE_TITLE`,
+      description: `Jan Russel Gorembalem`,
     })
-    .min(1, "SITE_TITLE cannot be empty"),
-  description: z.string({
-    description: `This is the default description of your SaaS, e.g. "Tailored Security Solutions Designed to Evolve with Your Business."`,
-    required_error: `Please provide the variable SITE_DESCRIPTION`,
-  })
+    .min(1)
+    .default("Jan Russel Gorembalem"),
+
+  description: z
+    .string({
+      description: `Hello! I'm Jan Russel Gorembalem. This portfolio is a window into my passion for fullstack development. Here, I share my favorite projects and experiences, highlighting my dedication to building dynamic, user-focused applications from front-end to back-end. Explore my work to see how I bring ideas to life through innovative coding, continuous learning, and a commitment to excellence in every line of code.`,
+    })
+    .default("Hello! I'm Jan Russel Gorembalem. This portfolio is a window into my passion for fullstack development. Here, I share my favorite projects and experiences, highlighting my dedication to building dynamic, user-focused applications from front-end to back-end. Explore my work to see how I bring ideas to life through innovative coding, continuous learning, and a commitment to excellence in every line of code."),
 });
 
 const appConfig = AppConfigSchema.parse({
-    name: process.env.VITE_SITE_NAME,
-    title: process.env.VITE_SITE_TITLE,
-    description: process.env.VITE_SITE_DESCRIPTION,
+    name: process.env.REACT_APP_NAME,
+    title: process.env.REACT_APP_TITLE,
+    description: process.env.REACT_APP_DESCRIPTION,
 });
+
+console.log(process.env.REACT_APP_TITLE)
 
 export default appConfig;
