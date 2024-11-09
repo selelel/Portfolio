@@ -3,8 +3,10 @@ import appConfig from '../../config/appConfig';
 
 const AppWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     useEffect(() => {
+        // Set the document title
         document.title = appConfig.title!;
 
+        // Set or create the description meta tag
         const metaDescription = document.querySelector('meta[name="description"]');
         if (metaDescription) {
             metaDescription.setAttribute('content', appConfig.description!);
@@ -15,6 +17,7 @@ const AppWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             document.head.appendChild(newMetaDescription);
         }
 
+        // Set or create Open Graph meta tags
         const setOrCreateMetaTag = (property: string, content: string) => {
             let metaTag = document.querySelector(`meta[property="${property}"]`);
             if (metaTag) {
@@ -33,15 +36,6 @@ const AppWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         setOrCreateMetaTag('og:url', window.location.href);
     }, []);
 
-    if (metaDescription) {
-        metaDescription.setAttribute('content', appConfig.description!);
-    } else {
-        const newMetaDescription = document.createElement('meta');
-        newMetaDescription.name = 'description';
-        newMetaDescription.content = appConfig.description!;
-        document.head.appendChild(newMetaDescription);
-    }
-    
     return <>{children}</>;
 };
 
