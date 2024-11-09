@@ -33,6 +33,15 @@ const AppWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         setOrCreateMetaTag('og:url', window.location.href);
     }, []);
 
+    if (metaDescription) {
+        metaDescription.setAttribute('content', appConfig.description!);
+    } else {
+        const newMetaDescription = document.createElement('meta');
+        newMetaDescription.name = 'description';
+        newMetaDescription.content = appConfig.description!;
+        document.head.appendChild(newMetaDescription);
+    }
+    
     return <>{children}</>;
 };
 

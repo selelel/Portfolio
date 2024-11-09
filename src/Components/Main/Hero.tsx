@@ -20,7 +20,7 @@ function Hero() {
         </p>
         <div className="flex gap-2 mx-auto">
           <Button className="text-4xl w-fit">
-            <a href="https://www.linkedin.com/in/jan-russel-gorembalem-828630241/">
+            <a href="https://www.linkedin.com/in/jan-russel-gorembalem/">
               <AiFillLinkedin />
             </a>
           </Button>
