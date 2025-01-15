@@ -58,7 +58,16 @@ const info = {
   ],
 };
 
-const projects = [
+const projects: Projects_Details[]= [
+  {
+    name: "ChitChat",
+    description:
+      "ChitChat is a social media app where you can share moments, post updates, and chat with friends seamlessly. Stay connected, express yourself, and explore a vibrant community—all in one place!",
+    urlGit: "https://github.com/selelel/chitchat",
+    urlImg: require("./img/coming_soon.png"),
+    techStack: ["NextJs", "NestJs", "GraphQL", "TypeScript", "MongoDB"],
+    wip: true
+  },
   {
     name: "Diurnarius",
     description:
@@ -67,6 +76,7 @@ const projects = [
     urlHomepage: "https://selelel.github.io/diurnarius/",
     urlImg: require("./img/diurnarius.gif"),
     techStack: ["Tailwind", "ReactJS", "Firebase"],
+    wip: false
   },
   {
     name: "Pawn Reciept",
@@ -76,6 +86,7 @@ const projects = [
     urlHomepage: "https://selelel.github.io/pawn-reciept",
     urlImg: require("./img/chess_reciept.gif"),
     techStack: ["Tailwind", "ReactJS", "TypeScript"],
+    wip: false
   },
   {
     name: "Portfolio Website",
@@ -85,6 +96,7 @@ const projects = [
     urlHomepage: "https://selelel.github.io/",
     urlImg: require("./img/portfolio.gif"),
     techStack: ["Tailwind", "ReactJS", "TypeScript"],
+    wip: false
   },
   {
     name: "Vertext",
@@ -95,7 +107,10 @@ const projects = [
       "https://selelel.github.io/vertext/?fbclid=IwAR2C3kuhUs6n2lm6GiMPt3-N3EwGzVw7s_UX7iGF7kff2JHC4fb_F2KNMew",
     urlImg: require("./img/vertext.gif"),
     techStack: ["Tailwind", "ReactJS"],
+    wip: false
   },
 ];
+
+export type Projects_Details = {name: string, description: string, urlGit: string, urlHomepage?: string, urlImg: string, techStack: string[], wip: boolean}
 
 export { projects, info };

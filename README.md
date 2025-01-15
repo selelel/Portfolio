@@ -18,6 +18,12 @@ My portfolio is a visual journey through my creative work and skills. It serves 
 
 ## Projects
 
+### ChitChat 
+
+- **Description:** ChitChat is a social media app where you can share moments, post updates, and chat with friends seamlessly. Stay connected, express yourself, and explore a vibrant community—all in one place!
+- **Technologies Used:** NextJs, NestJs, GraphQL, TypeScript, MongoDB
+- **Repository:** https://github.com/selelel/chitchat
+
 ### Diurnarius 
 
 - **Description:** Diurnarius is your digital companion, captures your daily experiences, reflections, and aspirations. It's a space to document your progress, share your thoughts, and connect with others.

@@ -5,4 +5,5 @@ export interface panelProps {
   link: string;
   linkImg: string;
   tech: string[];
+  wip: boolean;
 }
