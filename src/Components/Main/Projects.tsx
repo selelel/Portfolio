@@ -25,12 +25,7 @@ const Projects = () => {
             return (
               <div key={element.name}>
                 <Panel
-                  tech={element.techStack}
-                  linkImg={element.urlImg}
-                  linkGit={element.urlGit}
-                  link={element.urlHomepage}
-                  name={element.name}
-                  description={element.description}
+                  {...element}
                 />
               </div>
             );
